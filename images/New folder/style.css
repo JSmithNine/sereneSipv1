@@ -1,0 +1,75 @@
+/* resetting rule  */
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f0e2c5;        
+      }    
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+      
+      header{
+        border: 2px solid black ;
+        text-align: center;
+        padding: 50px 0;
+      }
+
+      .header h1{
+        font-size: 3rem;
+      }
+
+      .header p{
+        font-size: 1.2rem;
+        background-color: cyan;
+        padding: 10px 0;
+      }
+
+      .header-font {
+        font-family: "Playfair Display SC", serif;
+      }
+      .body-font {
+        font-family: "Lato", sans-serif;
+      }
+      .bg-primary{
+        background-color: #f0e2c5;
+      }
+      .bg-secondary{
+        background-color: #494949;
+      }
+      .text-primary{
+        color: #f0e2c5;
+      }
+      .text-secondary{
+        color:#494949;
+      }
+      
+      .card {
+        border: 1px solid black;
+        width: 250px;
+        padding: 10px;
+        margin: 50px auto;
+        text-align: center;
+        background-color: #f0e2c5;
+        border-radius: 5px;
+      }
+      .card-img-top {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+      .card-title {
+        margin: 10px;
+      }
+      .card-text {
+        line-height: 1.5;
+      }
+      .price {
+        font-style: italic;
+        font-weight: bold;
+      }
+      .btn {
+        text-decoration: none;
+        background-color: black;
+        display: block;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }

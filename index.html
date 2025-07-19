@@ -3,116 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Serene Sip</title>    
   </head>
   <body>
-    <header>
-      <h1>WELCOME TO SERENE SIP</h1>
-      <p>Indulge in the finest coffee experience crafted just for you.</p>
-      <p>Explore our menu and discover your new favorite brew.</p>
-      <a href="#our-menu">Explore Our Menu></a>
+    <!-- header section  -->
+    <header id="header">
+      <h1 >WELCOME TO SERENE SIP</h1>
+      <p>
+        Indulge in the finest coffee experience crafted just for you.
+      </p>
+      <p>
+        Explore our menu and discover your new favorite brew.
+      </p>
+      <button>Explore Our Menu</button>
+      
     </header>
-
+    <!-- nav section  -->
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#our-menu">Menu</a></li>
+       <li><a href="#about-us">About Us</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
-
+    <!-- our-menu section  -->
     <section id="our-menu">
-      <h2>OUR MENU</h2>
-      <div>
+      <h2>Our Menu</h2>
+      <div class="menu">
         <h3>Coffee Selections</h3>
         <div class="card">
-          <img src="images/Americano.jpg" alt="" class="card-img-top" />
-          <h4>Americano</h4>
-          <p>
+          <img src="images/Americano.jpeg" alt="" class="card-img-top" />
+          <div class="card-body">
+          <H4 class="card-title">Americano</h4>
+          <p class="card-text">
             -Stong and black coffee.<br />Perfect for the bold coffee
-            <br />enthusiast.<br />$2.50
+            <br />enthusiast.<br />
+            <span class="price">2.50$</span>
           </p>
-          <button>Order</button>
+          <a href="#" class="btn">Order</a>
+          </div>
         </div>
-
         <div class="card">
-          <img src="images/vanilla latte.jpeg" alt="" class="card-img-top" />
-          <h4>Latte</h4>
-          <p>
-            -Smooth and creamy espresso<br />with steamed milk.<br />A classic
-            favorite.<br />$3.00
+          <img src="images/Latte.jped.jpeg" alt="" class="card-img-top" />
+          <div class="card-body">
+          <h4 class="card-title">Latte</h4>
+          <p class="card-text">
+            -Smooth and creamy espresso<br />with steamed milk.<br />         
+            <span class="price">3.00$</span>
           </p>
-          <button>Order</button>
+          <a href="#" class="btn">Order</a>
         </div>
-
+        </div>
         <div class="card">
-          <img src="images/cappuccino.jpeg" alt="" class="card-img-top" />
-          <h4>Cappuccino</h4>
-          <p>
+          <img src="images/Cappuccino.jpeg" alt="" class="card-img-top" />
+          <div class="card-body">
+          <h4 class="card-title">Cappuccino</h4>
+          <p class="card-text">
             -Rich espresso topped with<br />frothy milk.<br />A perfect balance
-            of flavors.<br />$3.50
+            of flavors.<br /><span class="price">3.50$</span>
           </p>
-          <button>Order</button>
+          <a href="#" class="btn">Order</a>
+        </div>
+        </div>
+        <div class="card">
+          <img src="images/Cold Brew.jpeg" alt="" class="card-img-top" />
+          <div class="card-body">
+          <h4 class="card-title">Cold Brew</h4>
+          <p class="card-text">
+            -Smooth and refreshing cold brew.<br />
+          <p class="card-text">
+            -Rich espresso topped with<br />
+            <span class="price">3.50$</span>
+          </p>
+          <a href="#" class="btn">Order</a>
+        </div>
         </div>
 
-        <div class="card">
-          <img src="images/cold brew.jpeg" alt="" class="card-img-top" />
-          <h4>Cold Brew</h4>
-          <p>
-            -Smooth and refreshing cold brew.<br />Perfect for warm days.<br />$
-          </p>
-          <p>
-            -Rich espresso topped with<br />frothy milk.<br />A perfect balance
-            of flavors.<br />$3.50
-          </p>
-          <button>Order</button>
-        </div>
-
-        <div class="card">
+        <div>
           <h3>Delicious Snacks</h3>
           <div class="card">
-            <img
-              src="images/almond croissant.jpeg"
-              alt=""
-              class="card-img-top"
-            />
-            <h4>Almond Croissant</h4>
-            <p>
+            <img src="images/Almon Croissant.png" alt="" class="card-img-top"/>
+            <div class="card-body">
+            <h4 class="card-title">Almond Croissant</h4>
+            <p class="card-text">
               -Flaky and buttery croissant<br />filled with almond cream.<br />A
-              delightful pastry choice.<br />$2.00
+              <span class="price">2.00$</span>
             </p>
-            <button>Order</button>
-          </div>
-
+            <a href="#" class="btn">Order</a>
+            </div>  
+          </div>          
           <div class="card">
-            <img
-              src="images/chocolate croissant.jpeg"
-              alt=""
-              class="card-img-top"
-            />
+            <img src="images/Chocolate croissant.png" alt="" class="card-img-top"/>
+            <div class="card-body">
             <h4 class="card-title">Chocolate Croissant</h4>
             <p class="card-text">
-              -Decadent croissant filled with<br />rich chocolate.<br />A sweet
-              treat for chocolate lovers.<br />$2.50
+              -Decadent croissant filled <br />rich chocolate.<br /><span class="price">2.50$</span>
             </p>
-            <button>Order</button>
-          </div>
-
+            <a href="#" class="btn">Order</a>
+            </div>
+          </div>          
           <div class="card">
-            <img src="images/classic croissant.jpeg" alt="Classic Croissant" />
+            <img src="images/Classic Crosissant.png" alt="" class="card-img-top"/>
+            <!-- <div class="card-body"> -->
+            <div class="card-body">
             <h4 class="card-title">Classic Croissant</h4>
             <p class="card-text">
-              -Golden and flaky croissant.<br />A timeless pastry choice.<br />$1.50
+              -Golden and flaky croissant.<br />A timeless pastry choice.<br /><span class="price">2.0$</span>
             </p>
-            <button>Order</button>
+            <a href="#" class="btn">Order</a>
+            </div>
           </div>
+          <div class="card">
+          <img src="images/Brown Sandwich.png" alt="" class="card-img-top" />
+          <div class="card-body">
+          <h4 class="card-title">Brown Sandwich</h4>
+          <p class="card-text">
+            Tuna and Egg with roasted peppers and mixe leaves. <br /><span class="price">2.5$</span>
+          </p>
+          <a href="#" class="btn">Order</a>
         </div>
       </div>
     </section>
-
+    <!-- about-us section  -->
     <section id="about-us">
-      <h2>About Us</h2>
+      <h2 >About Us</h2>
       <p>Welcome to Serene Sips Cafe where every cup tells a story!</p>
       <p>
         Founded in 2020, our coffee journey began with a passion for creating a
@@ -137,29 +156,34 @@
         at Serene Sips Café.
       </p>
     </section>
-
-    <section id="contact">
+    <!-- contact-us section  -->
+      <section id="contact-us">
       <h2>Contact Us</h2>
       <p>
         We'd love to hear from you! Reach out to us with any questions,
         feedback, or special requests.
       </p>
-      <form action="">
+      <form>
         <div>
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" required />
+          <label for="" class="form-label">Your Name:</label>
+          <input type="text"  name=""class="form-control" /><br>
         </div>
 
         <div>
-          <label for="email">Your Email:</label>
-          <input type="email" id="email" name="email" required /><br />
+          <label for="" class="form-label">Your Email:</label>
+          <input type="email"  name=""class="form-control" /><br />
         </div>
 
         <div>
-          <label for="message">YourMessage:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
+          <label for="" class="form-label">YourMessage:</label>
+          <textarea  name="" rows=""class="form-control"></textarea>
         </div>
+        <input type="submit" value="Send Message" class="btnsubmit">
       </form>
     </section>
+    <footer>
+      <p >Copyright &copy;2024. Serene Sips Cafe. All Rights Reserved.</p>
+      <a href="#header">&#8593</a>
+    </footer>
   </body>
 </html>

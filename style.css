@@ -1,0 +1,169 @@
+/* resetting rule  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f0e2cf;
+}
+header {
+    /* border: 2px solid #000; */
+    text-align: center;
+    padding: 50px 0;
+}
+header h1{
+    font-family: "Playfair Display SC", serif;
+    color: #49281a;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+header p{
+    font-family: "Lato", sans-serif;
+    color: #49281a;
+}
+header button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #49281a;
+    color: #f0e2cf;
+    border-radius: 5px;
+    border: none;
+}
+/* nav section  */
+nav{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;
+    border: 1px solid black;
+    font-family: "Lato", sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;       
+}
+nav ul li a{
+    text-decoration: none;
+    color: #49281a;
+}
+/* Our-menu section  */
+#our-menu,
+.menu,
+.card,
+#about-us,
+#contact-us,
+footer{
+    width: 80%;
+    margin: 20px auto;
+}
+#our-menu h2,
+#about-us h2,
+#contact-us h2{
+    font-family: "Playfair Display SC", serif;
+    color: #49281a;
+    margin-bottom: 20px;
+}
+.menu {
+    display: inline-block;
+    /* border: 2px solid #000; */
+}
+.menu h3 {
+    font-family: "Playfair Display SC", serif;
+    color: #49281a;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.card {
+        border: 1px solid #000;
+        width: 211px;
+        /* height: 400px; */
+        padding: 5px;
+        border-radius: 5px;
+        font-family: "Lato", sans-serif;
+        color: #49281a;
+        display: inline-block;
+        margin: 10px auto;
+      }
+     .card-img-top {
+        max-width: 100%;
+        border-radius: 5px 5px 0px 0px;
+      }
+      .card-body {
+        text-align: center;
+      }
+      .card-title {
+        /* background-color: cyan; */
+        margin: 10px 0;
+        font-family: "Playfair Display SC", serif;
+      }
+      .card-text {
+        line-height: 1.5rem;
+      }
+      .price {
+        font-style: italic;
+        font-weight: bold;
+      }
+      .btn {
+        text-decoration: none;
+        background-color: black;
+        display: block;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        border-radius: 0px 0px 5px 5px;
+      }
+/* about-us section  */
+#about-us p,
+#contact-us p,
+#contact-us,{
+    font-family: "Lato", sans-serif;
+    padding: 5px;
+    text-align: justify;
+    color: #49281a;
+    border: none;
+    outline: none;
+}
+form{
+    font-family: "Lato", sans-serif;
+    margin-top: 20px;
+}
+form div{
+    margin-bottom: 20px;
+}
+.form-label{
+    /* border: 1px solid #000; */
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px ;
+}
+.form-control{
+    /* display:inline-block; */
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px dotted #49281a;
+}
+.btnsubmit{
+    margin-left: 160px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #49281a;
+    color: #f0e2cf;
+    border: none;
+    border-radius: 8px;
+}
+footer{
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+footer p{
+    font-size: 0.9rem;   
+}
+footer a{
+    text-decoration: none;
+    color: #49281a;
+    margin-left: 800px ;
+}
